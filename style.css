@@ -1,0 +1,40 @@
+body {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    resize: both;
+    scroll-behavior: smooth;
+    background-color: grey;
+
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .75rem;
+    padding: .75rem;
+}
+
+.tile {
+    background-color: darkgrey;
+    border-radius: 3px;
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.tile-2 {
+    background-color: hsl(150, 100%, 94%);
+}
