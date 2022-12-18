@@ -50,7 +50,7 @@ body {
     height: var(--cell-size);
     left: calc(var(--x) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
     top: calc(var(--y) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
-    background-color: hsl(50, 50%, var(--bg-lightness));
+    background-color: hsl(200, 50%, var(--bg-lightness));
     color: hsl(200, 25%, var(--text-lightness));
     font-size: 2.5rem;
     font-weight: bold;
@@ -58,7 +58,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: 100ms ease-in-out;
-    animation: show 2000ms ease-in-out;
+    animation: show 200ms ease-in-out;
 }
 
 @keyframes show {
